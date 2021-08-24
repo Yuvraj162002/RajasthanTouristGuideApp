@@ -2,6 +2,7 @@ package com.example.rajasthantouristguideapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,45 +40,72 @@ public class VisitAdapter  extends ArrayAdapter<Visit> {
         ImageView imageView = (ImageView) gridView.findViewById(R.id.imagePV);
         imageView.setImageResource(currentVisit.getImage());
 
-//     //   ImageView imageView1 = (ImageView)gridView.findViewById(R.id.imagePV);
-//        imageView.setOnClickListener(new View.OnClickListener() {
 //
-//            @Override
-//            public void onClick(View v) {
-//                if (city.equals("JAIPUR")){
-//               getContext().startActivity(new Intent(getContext(),Jaipur.class));
-//            }
-//}
-//        });
-  //  ImageView imageView1 = (ImageView)gridView.findViewById(R.id.imagePV);
     imageView.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             if (currentVisit.getCityname().equals("JAIPUR")) {
-              //  Intent intent = new Intent(getContext(), Jaipur.class);
-                getContext().startActivity(new Intent(getContext(), Jaipur.class));
-                //   getContext().startActivity(intent);
+//                Intent intent = new Intent(getContext(), Jaipur.class);
+//                getContext().startActivity(new Intent(getContext(), Jaipur.class));
+//                   getContext().startActivity(intent);
+
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+               intent.setData(Uri.parse("https://www.holidify.com/places/jaipur/"));
+                getContext().startActivity(intent);
+//
+
+
             }
             else if (currentVisit.getCityname().equals("UDAIPUR")){
-                getContext().startActivity(new Intent(getContext(),Udaipur.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/udaipur/sightseeing-and-things-to-do.html"));
+                getContext().startActivity(intent);
+              //  getContext().startActivity(new Intent(getContext(),Udaipur.class));
             }
             else if (currentVisit.getCityname().equals("JODHPUR")){
-                getContext().startActivity(new Intent(getContext(),Jodhpur.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/jodhpur/"));
+                getContext().startActivity(intent);
+
+                //getContext().startActivity(new Intent(getContext(),Jodhpur.class));
             }
             else if (currentVisit.getCityname().equals("JAISALMER")){
-                getContext().startActivity(new Intent(getContext(),Jaislamer.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/jaisalmer/"));
+                getContext().startActivity(intent);
+
+
+                //getContext().startActivity(new Intent(getContext(),Jaislamer.class));
             }
             else if (currentVisit.getCityname().equals("BARMER")){
-                getContext().startActivity(new Intent(getContext(),Barmer.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/jaisalmer/barmer-sightseeing-2140.html"));
+                getContext().startActivity(intent);
+
+
+                //getContext().startActivity(new Intent(getContext(),Barmer.class));
             }
             else if (currentVisit.getCityname().equals("CHITTORGARH")){
-                getContext().startActivity(new Intent(getContext(),Chittorgarh.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/chittorgarh/"));
+                getContext().startActivity(intent);
+
+                //getContext().startActivity(new Intent(getContext(),Chittorgarh.class));
             }
             else if (currentVisit.getCityname().equals("BIKANER")){
-                getContext().startActivity(new Intent(getContext(),Bikaner.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/bikaner/"));
+                getContext().startActivity(intent);
+
+
+                //getContext().startActivity(new Intent(getContext(),Bikaner.class));
             }
             else{
-                getContext().startActivity(new Intent(getContext(),Montabu.class));
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.holidify.com/places/mount-abu/"));
+                getContext().startActivity(intent);
+
+                // getContext().startActivity(new Intent(getContext(),Montabu.class));
             }
         }
     });
