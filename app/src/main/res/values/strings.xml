@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RajasthanTouristGuideApp</string>
+    <string name="About">
+       <b>Rajasthan</b>
+       <i>‘Land of Kings’ or ‘Land of Kingdom’</i>  is Indias largest state by area. The state located on northwest part of country and is a home of cultural diversity. Its features include the ruins of Indus Valley Civilization, Temples, Forts and Fortresses in almost every city.  Rajasthan divided into 9 regions; Ajmer State, Hadoti, Dhundhar, Gorwar, Shekhawati, Mewar, Marwar, Vagad and Mewat which are equally rich in its heritage and artistic contribution. These regions have a parallel history which goes along with that of the state.\n\n\n
+
+A world heritage site,<i>Keoladeo National Park</i>  near Bharatpur, known for its bird life. Apart from this state has two national tiger reserves namely Ranthambore National Park at Sawai Madhopur and Sariska Tiger Reserve in Alwar.\n\n\n
+
+
+    </string>
+    <string name="about2">
+        The State was formed on 30th March 1949 when Rajputana – name as adopted by British Crown was merged into the Dominion of India. Jaipur being largest city was declared as capital of the state.\n\n\n
+
+        The early history of Rajasthan includes some of the great Maharanas, Nawabs and Rulers. Prominent among them were Prithiviraj Chouhan, Samrat Hem Chandra Vikramaditya (also known as Hemu), Mughal Emperor Akbar, Maharana Udai Singh, Maharana Pratap, Raja Maan Singh and others.\n\n\n
+
+                <b>Rajasthans</b> formerly independent kingdoms developed a rich architectural and cultural heritage; same can be seen today in numerous forts and palaces, which are enriched by feature of Muslim and Jain Architecture.\n\n\n
+                Major features include the ruins of the Indus Valley Civilisation at Kalibangan and Balathal, the Dilwara Temples, a Jain pilgrimage site at Rajasthans only hill station, Mount Abu, in the ancient Aravalli mountain range and in eastern Rajasthan, the Keoladeo National Park of Bharatpur, a World Heritage Site[12] known for its bird life. Rajasthan is also home to three national tiger reserves, the Ranthambore National Park in Sawai Madhopur, Sariska Tiger Reserve in Alwar and Mukundra Hills Tiger Reserve in Kota.\n\n\n
+
+        The state was formed on 30 March 1949 when Rajputana – the name adopted by the British Raj for its dependencies in the region[13] – was merged into the Dominion of India. Its capital and largest city is Jaipur. Other important cities are Jodhpur, Kota, Bikaner, Ajmer, Bharatpur and Udaipur. The economy of Rajasthan is the seventh-largest state economy in India with ₹10.20 lakh crore (US$140 billion) in gross domestic product and a per capita GDP of ₹118,000 (US$1,700).[3] Rajasthan ranks 29th among Indian states in human development index.
+
+    </string>
+    <string name="title_activity_udaipur">Udaipur</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imagePV"
+        android:layout_width="170dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="16dp"
+        android:padding="16dp"
+        android:src="@drawable/jaipur"/>
+
+    <Button
+        android:id="@+id/cityTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/permanent_marker"
+        android:text="jaipur"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
